@@ -47,7 +47,7 @@ plain.css occupies the sweet spot between:
 |**Utility-only** | Tailwind | Has utilities, but also components |
 |**Component-only** | Bootstrap | Has components, but also utilities |
 |**Minimal reset** | Pure CSS | Has tokens, but also batteries |
-|**plain.css** | Hybrid | **Just right** | 
+|**Hybrid** | plain.css | **Just right** | 
 
 
 ### 🎨 Design Tokens
