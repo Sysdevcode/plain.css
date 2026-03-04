@@ -118,7 +118,7 @@ Everything scales from a single unit: `--space-unit: .5rem (8px)`
 
 #### Layout Helpers
 ```css
-.stack > \* + \*        /* vertical rhythm (16px) */
+.stack > * + *        /* vertical rhythm (16px) */
 .stack-xs ... stack-xl  /* size variants */
 .cluster                /* wrapping horizontal group */
 .layout-sidebar         /* 240px + 1fr grid layout */
@@ -132,11 +132,11 @@ Full coverage of margin and padding with intuitive naming:
 /* Margin — all sides */
 .m-0, .m-xxs, .m-xs, .m-sm, .m-md, .m-lg, .m-xl, .m-auto
 /* Single sides */
-.mt-\*, .mb-\*, .ml-\*, .mr-\*
+.mt-*, .mb-*, .ml-*, .mr-*
 /* Axes */
-.mx-\*, .my-\*
+.mx-*, .my-*
 /* Padding (same pattern) */
-.p-\*, .pt-\*, .pb-\*, .pl-\*, .pr-\*, .px-\*, .py-\*
+.p-*, .pt-*, .pb-*, .pl-*, .pr-*, .px-*, .py-*
 ```
 
 ### 🔤 Typography
@@ -153,9 +153,9 @@ Full coverage of margin and padding with intuitive naming:
 /* Tracking */
 .tracking-tight, .tracking-normal, .tracking-wide, .tracking-wider
 /* Modern utilities */
-.text-balance    /* balanced line wrapping for headlines */
-.text-truncate  /* ellipsis overflow */
-.break-words    /* safe word breaking */
+.text-balance       /* balanced line wrapping for headlines */
+.text-truncate      /* ellipsis overflow */
+.break-words        /* safe word breaking */
 ```
 
 🧩 Components
@@ -421,8 +421,8 @@ plain.css
 Bootstrap
 ~150kb
 Tailwind (with purge)
-~10-30kb\*
-\*Tailwind requires build step and purging
+~10-30kb*
+*Tailwind requires build step and purging
 
 🚀 Usage
 --------
